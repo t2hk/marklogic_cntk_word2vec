@@ -51,12 +51,14 @@ This model was learned over 350,000 Japanse words on wikipedia.
 This is a list of word indices. Load this file into the MarkLogic in JSON format by MLCP.
 
 # How to use
-* 1. Load wikipedia_vocab.csv to MarkLogic
+1. Load wikipedia_vocab.csv to MarkLogic
+
      Convert this file to JSON format, load it under /vocab/.
      See load_vocab.sh for the MLCP command.
   
-* 2. Load wikipedia_w2v_model.onnx
+2. Load wikipedia_w2v_model.onnx
+
      Load this file into the MarkLogic under /model/.
      See load_model.sh for the MLCP command.
 
-* 3. Execute XQuery samples
+3. Execute XQuery samples
