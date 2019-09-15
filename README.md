@@ -6,7 +6,7 @@ The following functions are implemented by XQuery.
 These functions uses word2vec ONNX model learned using the Japanese Wikipedia.
 This sample model has learned about 350,000 Japanese words.
 
-* cosine-distance.xqy
+### cosine-distance.xqy
 
 This sample calculate the cosine distance between two words learned by word2vec.
 
@@ -18,7 +18,7 @@ The following MarkLogic CNTK functions are mainly used.
   - cntk:batch-of-sequences
   - cntk:evaluate
 
-* top-k.xqy
+### top-k.xqy
 
 This sample gets the top-k values from the argument array. 
 
@@ -27,7 +27,7 @@ The following MarkLogic CNTK functions are mainly used.
   - cntk:top-k
   - cntk:evaluate
 
-* most-similar.xqy
+### most-similar.xqy
 
 This sample searches for similar words learned by word2vec.
 
