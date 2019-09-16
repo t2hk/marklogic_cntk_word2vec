@@ -1,4 +1,4 @@
-# MarkLogic CNTK sample functions
+# MarkLogic10 CNTK sample functions
 Sample functions for NLP using CNTK of MarkLogic10.
 
 ## Overview
