@@ -39,6 +39,22 @@ The following MarkLogic CNTK functions are mainly used.
   - cntk:batch-of-sequences
   - cntk:evaluate
 
+### analogy.xqy
+
+This sample is the word analogy.
+
+The following MarkLogic CNTK functions are mainly used.
+
+  - cntk:one-hot-op
+  - cntk:embedding-layer
+  - cntk:minus
+  - cntk:plus
+  - cntk:sqrt
+  - cntk:element-divide
+  - cntk:element-times
+  - cntk:reduce-sum-on-axes
+  - cntk:evaluate
+
 # word2vec model and vocabulary list
 The sample codes above uses the following word2vec ONNX model and vocabulary list.
 
