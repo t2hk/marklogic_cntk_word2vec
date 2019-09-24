@@ -28,7 +28,7 @@ declare function local:analogy($a-word as xs:string, $b-word as xs:string, $c-wo
   let $VOCAB_SIZE := 345861
   
   (:学習データの準備:)
-  let $model := cntk:function(fn:doc("/model/wiki_w2v_model.onnx")/binary(), cntk:gpu(0), "onnx")
+  let $model := cntk:function(fn:doc("/model/wikipedia_w2v_model.onnx")/binary(), cntk:gpu(0), "onnx")
   
   (: モデルの入力パラメータ型 :)
   let $a-input-variable := cntk:input-variable(cntk:shape((1)), "float")
